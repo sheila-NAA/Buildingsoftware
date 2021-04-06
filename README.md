@@ -44,7 +44,7 @@ the following characteristics:
 
  - latitude and longitude columns converted to numeric class
 
- - use the funciton `eq_location_clean()` (from the **devrcap** package
+ - use the funciton `eq_location_clean()` (from the **buildingpackage** package
    too) to clean the _location_name_ column by stripping out the country
    name (including the colon) and converting names to title case (as
    opposed to all caps).
