@@ -56,7 +56,7 @@ data_cleaned <- devrcap::eq_clean_data(noaa)
 DT::datatable(data_cleaned)
 ```
 
-Using the ggplot2 geom `geom_timeline()` provided by **devrcap**,
+Using the ggplot2 geom `geom_timeline()` provided by **buildingpackage**,
 we can use the cleaned data to plot time lines of earthquakes
 both overall and by group (e.g., country).
 
